@@ -6,7 +6,7 @@ set tabstospaces
 set zap
 set afterends
 set brackets ""')>]}"
-set matchbrackets "(<[gso{)>]})"
+set matchbrackets "(<[{)>]}"
 
 bind ^C   copy          main
 bind ^X   cut           main
