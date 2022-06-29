@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-# dotfiles
-this is test commit gg
-=======
-# dotfiles
->>>>>>> fff249a (Initial commit)
+## Dotfiles for individual use
+
+### i am not allow anyone to acces this repo rkub.

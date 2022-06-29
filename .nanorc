@@ -1,0 +1,21 @@
+
+set wordchars "_"
+set linenumbers
+set tabstospaces
+set zap
+set afterends
+set brackets ""')>]}"
+set matchbrackets "(<[gso{)>]})"
+
+bind ^C   copy          main
+bind ^X   cut           main
+bind ^V   paste         main
+bind ^K   zap           main
+bind ^H   chopwordleft  all
+bind ^Q   exit          all
+bind M-Z   suspend       main
+bind ^Z	  undo  main
+bind ^R   redo        main
+bind M-F nextword       main
+bind M-B prevword       main
+bind M-E findbracket    main
