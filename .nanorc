@@ -1,4 +1,5 @@
 
+set tabsize 2 
 set wordchars "_"
 set linenumbers
 set tabstospaces
