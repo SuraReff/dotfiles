@@ -13,7 +13,7 @@ then
         exit 0 
 fi
 
-for todo_word in `ls ~/*.todo | awk -F'/' '{print $1}' | awk -F'.' '{print $1}'`
+for todo_word in `ls ~/*.todo | awk -F'/' '{print $(NF)}' | awk -F'.' '{print $1}'`
 do
   for i in `tmux ls | awk -F':' '{print $1}'`
   do
