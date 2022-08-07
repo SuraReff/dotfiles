@@ -1,7 +1,16 @@
 (setq inhibit-startup-message t)
 (setq visible-bell t)(load-theme 'wombat t)
 (global-display-line-numbers-mode 1)
-(global-set-key (kbd "C-(") 'insert-parathesis)
+(global-set-key (kbd "C-(") 'insert-parentheses)
+(setq tab-always-indent 'complete
+      indent-tabs-mode nil)
+(global-unset-key (kbd "M-u"))
+(global-unset-key (kbd "M-o"))
+
+
+;;(setq ergoemacs-theme nil) ;; Uses Standard Ergoemacs keyboard theme
+;;(setq ergoemacs-keyboard-layout "us") ;; Assumes QWERTY keyboard layout
+;;(ergoemacs-mode 1)
 
 ;; uncomment if you want to not use  Evil mode
 (global-undo-tree-mode)
@@ -33,7 +42,7 @@
  '(cua-mode t nil (cua-base))
  '(global-display-line-numbers-mode t)
  '(package-selected-packages
-   '(evil smex magit undo-tree expand-region evil-nerd-commenter))
+   '(ergoemacs-mode evil smex magit undo-tree expand-region evil-nerd-commenter))
  '(tool-bar-mode nil))
 (require 'package)
 (add-to-list 'package-archives '("melpa" . "https://melpa.org/packages/") t)
