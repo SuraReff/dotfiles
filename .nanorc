@@ -33,4 +33,4 @@ bind M-U prevword main
 bind M-O nextword main
 bind M-E end main
 bind M-A home main
-bind ^-Space
+bind ^Space mark main
