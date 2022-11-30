@@ -18,3 +18,7 @@ set shiftwidth=4  " Amount of spaces when shifting
 " inoremap JK <esc>
 inoremap jk <esc>
 inoremap ii <esc>
+inoremap df <esc>
+inoremap fd <esc>
+
+
