@@ -8,12 +8,13 @@ set softtabstop=4 " Soft tab width in spaces
 set shiftwidth=4  " Amount of spaces when shifting
 
 " Remap Key" 
-inoremap jj <esc>
-inoremap jJ <esc>
-inoremap Jj <esc>
-inoremap JJ <esc>
+" inoremap jj <esc>
+" inoremap jJ <esc>
+" inoremap Jj <esc>
+" inoremap JJ <esc>
+" inoremap jk <esc>
+" inoremap jK <esc>
+" inoremap Jk <esc>
+" inoremap JK <esc>
 inoremap jk <esc>
-inoremap jK <esc>
-inoremap Jk <esc>
-inoremap JK <esc>
-
+inoremap ii <esc>
