@@ -11,7 +11,7 @@ set mouse
 
 bind M-H home main
 bind M-N end  main
-bind M-I  up  main
+bind M-I  up  main 
 bind M-J  left main
 bind M-L  right main
 bind M-K  down  main
@@ -29,7 +29,7 @@ bind ^H help main
 bind M-F nextword       main
 bind M-B prevword       main
 bind M-] findbracket    main
-bind M-U prevword main
+bind M-U prevword main 
 bind M-O nextword main
 bind M-E end main
 bind M-A home main
