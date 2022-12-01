@@ -1,3 +1,2 @@
-## Dotfiles for individual use only !
-
-this is test 
+## Dotfiles for individual !
+this is a file to save it with krub 
