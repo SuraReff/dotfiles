@@ -20,4 +20,4 @@ inoremap jk <esc>
 inoremap ii <esc>
 inoremap ; <esc>
 " inoremap <Space><Space> <esc>
-inoremap <Tab> <esc>
+" inoremap <> <esc>
