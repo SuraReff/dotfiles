@@ -20,6 +20,8 @@
  ;; If there is more than one, they won't work right.
  '(ansi-color-faces-vector
    [default default default italic underline success warning error])
+ '(window-divider-mode t)
+ '(window-divider-default-places t)
  '(cua-mode t nil (cua-base))
  '(custom-enabled-themes '(dichromacy))
  '(display-battery-mode t)
@@ -35,3 +37,12 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  '(default ((t (:family "Franklin Gothic Medium" :foundry "outline" :slant normal :weight normal :height 143 :width normal)))))
+
+;; mouse
+(global-set-key [right-divider mouse-5] 'mouse-split-window-vertically)
+(global-set-key [bottom-divider mouse-5] 'mouse-split-window-horizontally)
+(global-set-key [mode-line mouse-5] 'mouse-split-window-horizontally)
+(global-set-key [mouse-5] 'mouse-buffer-menu)
+(global-set-key [right-divider mouse-3] 'mouse-split-window-vertically)
+(global-set-key [bottom-divider mouse-3] 'mouse-split-window-horizontally)
+(global-set-key [mode-line mouse-3] 'mouse-split-window-horizontally)
