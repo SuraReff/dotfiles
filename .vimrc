@@ -22,11 +22,6 @@ set relativenumber
 " inoremap df <esc>
 " inoremap fd <esc>
 
-nmap <A-s> :w<CR>
-nmap <A-v> "+p
-vmap <A-c> "+y
-
-nmap <A-c> "+y
 imap <A-[> <Esc>
 imap <A-f> <Esc>f
 imap <A-F> <Esc>F
