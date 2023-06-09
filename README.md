@@ -1,6 +1,2 @@
 ## Dotfiles for individual !
-this is a file to save it with krub 
-
-
-
-thish fisdhi f
+I create this regarding I would like to maintain the code only to my repository krub.
