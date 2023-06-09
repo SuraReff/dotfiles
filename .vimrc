@@ -6,6 +6,7 @@ set expandtab     " Expand tabs to the proper type and size
 set tabstop=4     " Tabs width in spaces
 set softtabstop=4 " Soft tab width in spaces
 set shiftwidth=4  " Amount of spaces when shifting
+set relativenumber
 
 " Remap Key" 
 " inoremap jj <esc>
@@ -16,9 +17,7 @@ set shiftwidth=4  " Amount of spaces when shifting
 " inoremap jK <esc>
 " inoremap Jk <esc>
 " inoremap JK <esc>
-inoremap jk <esc>
-inoremap ii <esc>
-inoremap df <esc>
-inoremap fd <esc>
-
-
+" inoremap jk <esc>
+" inoremap ii <esc>
+" inoremap df <esc>
+" inoremap fd <esc>

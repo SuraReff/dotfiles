@@ -17,7 +17,6 @@ for todo_word in `ls ~/*.todo | awk -F'/' '{print $(NF)}' | awk -F'.' '{print $1
 do
   for i in `tmux ls | awk -F':' '{print $1}'`
   do
-  thisdhfihs d
   	echo $todo_word $i
   	if [[ $i == $todo_word ]]
   	then
