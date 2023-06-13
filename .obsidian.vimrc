@@ -1,6 +1,4 @@
 nmap <A-s> :w<CR>
-nmap <A-v> "+p
-vmap <A-c> "+y
 
 nmap <A-c> "+y
 imap <A-[> <Esc>
@@ -8,18 +6,23 @@ imap <A-f> <Esc>f
 imap <A-F> <Esc>F
 imap <A-t> <Esc>t
 imap <A-s-t> <Esc>s-t
-imap <A-j> <Esc>j
-imap <A-k> <Esc>k
-imap <A-h> <Esc>h
-imap <A-l> <Esc>l
-imap <A-e> <Esc>e
-imap <A-b> <Esc>b
-imap <A-w> <Esc>w
+imap <A-j> <Esc>ja
+imap <A-k> <Esc>ka
+imap <A-h> <Esc>ha
+imap <A-l> <Esc>la
+imap <A-e> <Esc>ea
+imap <A-b> <Esc>bi
+imap <A-w> <Esc>wwi
 imap <A-o> <Esc>o
-imap <LeftMouse> <Esc><LeftMouse>
-imap <A-0> <Esc>0
-imap <A-4> <Esc>$
+imap <LeftMouse> <Esc><LeftMouse>a
+imap <A-0> <Esc>0i
+imap <A-4> <Esc>$a
 imap <A-c> <Esc>c
+imap <A-a> <Esc>A
+imap <A-i> <Esc>I
+imap <A-v> <Esc>v
+imap <A-/> <Esc>/
+
 
 nmap <A-[> <Esc>
 nmap <A-f> <Esc>f
@@ -36,3 +39,5 @@ nmap <A-w> <Esc>w
 nmap <A-o> <Esc>o
 nmap <A-0> <Esc>0
 nmap <A-4> <Esc>$
+nmap <A-a> <Esc>A
+nmap <A-i> <Esc>I
